@@ -13,6 +13,19 @@ const Hero: React.FC = () => {
       
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="space-y-6">
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-sky-400/30 shadow-2xl">
+                <img 
+                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-sky-400/20 to-cyan-400/20 animate-pulse"></div>
+            </div>
+          </div>
+          
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
             <span className="block">Creative</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-400">
